@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <title>VersBand</title>
+  <title>Versatile Framework for Song Generation with Prompt-based Control</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" />
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -21,29 +21,36 @@
       max-width: 220px;
     }
   </style>
+    <meta name="citation_title" content="Versatile Framework for Song Generation with Prompt-based Control">
+    <meta name="citation_author" content="Yu Zhang">
+    <meta name="citation_author" content="Wenxiang Guo">
+    <meta name="citation_author" content="Changhao Pan">
+    <meta name="citation_author" content="Zhiyuan Zhu">
+    <meta name="citation_author" content="Ruiqi Li">
+    <meta name="citation_author" content="Jingyu Lu">
+    <meta name="citation_author" content="Rongjie Huang">
+    <meta name="citation_author" content="Ruiyuan Zhang">
+    <meta name="citation_author" content="Zhiqing Hong">
+    <meta name="citation_author" content="Ziyue Jiang">
+    <meta name="citation_author" content="Zhou Zhao">
+    <meta name="citation_conference_title" content="EMNLP 2025 Findings">
+  <link rel="stylesheet" href="publication.css">
 </head>
 
 <body>
   <div class="container pt-5 mt-5 shadow p-5 mb-5 bg-white rounded">
-    <div class="text-center">
-      <h1>VersBand</h1>
-      <h3>Versatile Framework for Song Generation with Prompt-based Control</h3>
-      <!-- <p class="lead fw-bold">
-          |<a
-            href=""
-            class="btn border-white bg-white fw-bold"
-            >paper</a
-          >|
-        </p> -->
-      <!-- <p> -->
-      
-
-      <!-- </p> -->
-      <!-- <p class="fst-italic mb-0">
-          
-        </p> -->
-      <p><b></b></p>
-    </div>
+    <header class="text-center demo-paper">
+      <h1>Versatile Framework for Song Generation with Prompt-based Control</h1>
+      <div class="publication-meta">
+        <p class="publication-venue"><a href="https://2025.emnlp.org/">EMNLP 2025 Findings</a></p>
+        <p class="publication-authors"><span class="publication-author"><strong><a href="https://aaronz345.github.io/">Yu Zhang</a></strong>,</span> <span class="publication-author">Wenxiang Guo,</span> <span class="publication-author">Changhao Pan,</span> <span class="publication-author">Zhiyuan Zhu,</span> <span class="publication-author">Ruiqi Li,</span> <span class="publication-author">Jingyu Lu,</span> <span class="publication-author">Rongjie Huang,</span> <span class="publication-author">Ruiyuan Zhang,</span> <span class="publication-author">Zhiqing Hong,</span> <span class="publication-author">Ziyue Jiang,</span> <span class="publication-author">Zhou Zhao</span></p>
+        <nav class="publication-links" aria-label="Publication resources">
+          <a href="https://aclanthology.org/2025.findings-emnlp.13/">Paper</a>
+          <a href="https://arxiv.org/abs/2504.19062">arXiv</a>
+          <a href="https://github.com/AaronZ345/VersBand">AccompBand Code</a>
+        </nav>
+      </div>
+    </header>
     <p>
       <b>Abstract.</b>
     Song generation focuses on producing controllable high-quality songs based on various prompts. 
@@ -125,36 +132,36 @@
             <td style="text-align: center">确定，你就是我的唯一，独自对着电话说我爱你</td>
             <td style="text-align: center">A male vocalist sings this pop song with a soft and melodic tone, skillfully incorporating mixed voice to enhance its emotional depth. The performance is emotional, sentimental, pensive, melancholic, and romantic. It carries a passionate and heartfelt mood.</td>
             <td style="text-align: center">The melody is played by the electric guitar and keyboard, creating a vibrant and harmonious blend, while the bass guitar provides a steady background groove. The rhythm is driven by a simple acoustic drum beat, adding a rhythmic foundation. The overall atmosphere is perfectly suited for the opening theme of a teenage sitcom.</td>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/SG/0001[vocal].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/SG/0001[accomp].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/SG/0001[song].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center"><audio preload="none" controls controlslist="nodownload" class="px-1"> <source src='data/SG/0001[vocal].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center"><audio preload="none" controls controlslist="nodownload" class="px-1"> <source src='data/SG/0001[accomp].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center"><audio preload="none" controls controlslist="nodownload" class="px-1"> <source src='data/SG/0001[song].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
           </tr>
 
           <tr height=100px>
             <td style="text-align: center">悟道修炼，不问一生缘劫，白纸画卷寥寥几笔绘江湖深浅</td>
             <td style="text-align: center">A female vocalist sings melodically as the lead, delivering a bright and expressive performance. Her tone is relaxed and easygoing.</td>
             <td style="text-align: center">This music is accompanied by percussion playing a simple beat. The bass plays the root notes of the chords. A guitar plays staccato chords in the background.</td>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/SG/0004[vocal].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/SG/0004[accomp].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/SG/0004[song].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center"><audio preload="none" controls controlslist="nodownload" class="px-1"> <source src='data/SG/0004[vocal].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center"><audio preload="none" controls controlslist="nodownload" class="px-1"> <source src='data/SG/0004[accomp].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center"><audio preload="none" controls controlslist="nodownload" class="px-1"> <source src='data/SG/0004[song].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
           </tr>
 
           <tr height=100px>
             <td style="text-align: center">我受够了等待，你所谓的安排</td>
             <td style="text-align: center">A soft female vocal delivers an emotional performance. The singing style is delicate yet expressive, with a breathy technique and smooth tone that conveys depth and feeling. The vocal incorporates subtle dynamics and emotive phrasing.</td>
             <td style="text-align: center">The background features acoustic guitar playing a melodic line, complemented by a bass guitar in the background. A basic acoustic drum beat sets a steady rhythm, creating a relaxed atmosphere suitable for a romantic piece.</td>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/SG/0003[vocal].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/SG/0003[accomp].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/SG/0003[song].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center"><audio preload="none" controls controlslist="nodownload" class="px-1"> <source src='data/SG/0003[vocal].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center"><audio preload="none" controls controlslist="nodownload" class="px-1"> <source src='data/SG/0003[accomp].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center"><audio preload="none" controls controlslist="nodownload" class="px-1"> <source src='data/SG/0003[song].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
           </tr>
 
           <tr height=100px>
             <td style="text-align: center">怕你飞远去，怕你离我而去，原来你</td>
             <td style="text-align: center">A female vocal delivers an emotional performance. She sings with a mixed voice technique for emotional delivery. </td>
             <td style="text-align: center"> This is accompanied by percussion playing a simple beat. The bass plays the root notes of the chords. An acoustic guitar plays chords. A synth plays the bass notes in the background. The mood of this song is emotional.</td>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/SG/0002[vocal].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/SG/0002[accomp].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/SG/0002[song].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center"><audio preload="none" controls controlslist="nodownload" class="px-1"> <source src='data/SG/0002[vocal].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center"><audio preload="none" controls controlslist="nodownload" class="px-1"> <source src='data/SG/0002[accomp].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center"><audio preload="none" controls controlslist="nodownload" class="px-1"> <source src='data/SG/0002[song].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
           </tr>
 
       </table>
@@ -185,36 +192,36 @@
             <td style="text-align: center">怎么忍心怪你犯了错，是我给你自由过了火</td>
             <td style="text-align: center">\</td>
             <td style="text-align: center"> The tempo is slow with a piano accompaniment and a violin harmony. The song is soft, mellow, poignant, emotional, sentimental, romantic, melancholic and pensive. The rhythm creates an emotional atmosphere.</td>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/SST/0003[prompt].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/SST/0003[vocal].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/SST/0003[song].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center"><audio preload="none" controls controlslist="nodownload" class="px-1"> <source src='data/SST/0003[prompt].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center"><audio preload="none" controls controlslist="nodownload" class="px-1"> <source src='data/SST/0003[vocal].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center"><audio preload="none" controls controlslist="nodownload" class="px-1"> <source src='data/SST/0003[song].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
           </tr>
 
           <tr height=100px>
             <td style="text-align: center">Now I know there's another world. Butterflies floating in the air. There is someone out there</td>
             <td style="text-align: center">The pop singing features a female vocal that delivers an engaging performance, filled with expressive dynamics and an inviting tone that captivates listeners, evoking a sense of wonder and possibility.</td>
             <td style="text-align: center">This music piece showcases a medium tempo with a catchy electric guitar riff, smooth bass line, steady drumming, keyboard harmony, and rhythmic acoustic guitar strumming. The music is soft, rich, full-bodied, emphatic, and pleasant, embodying a Western Classical style.</td>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/SST/0001[prompt].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/SST/0001[vocal].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/SST/0001[song].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center"><audio preload="none" controls controlslist="nodownload" class="px-1"> <source src='data/SST/0001[prompt].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center"><audio preload="none" controls controlslist="nodownload" class="px-1"> <source src='data/SST/0001[vocal].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center"><audio preload="none" controls controlslist="nodownload" class="px-1"> <source src='data/SST/0001[song].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
           </tr>
 
           <tr height=100px>
             <td style="text-align: center">你不了解的爱</td>
             <td style="text-align: center">\</td>
             <td style="text-align: center">This is accompanied by percussion playing a simple beat. The bass plays the root notes of the chords. A guitar plays staccato chords in the background. The mood of this song is romantic. The rhythm creates an emotional atmosphere. This song can be played in a romantic movie.</td>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/SST/0004[prompt].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/SST/0004[vocal].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/SST/0004[song].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center"><audio preload="none" controls controlslist="nodownload" class="px-1"> <source src='data/SST/0004[prompt].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center"><audio preload="none" controls controlslist="nodownload" class="px-1"> <source src='data/SST/0004[vocal].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center"><audio preload="none" controls controlslist="nodownload" class="px-1"> <source src='data/SST/0004[song].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
           </tr>
 
           <tr height=100px>
             <td style="text-align: center">如果今天我们就要分离，让我痛快的哭出声音</td>
             <td style="text-align: center">The singing features a male vocalist singing expressively, infusing the performance with deep emotion that complements the overall feel of the R&B piece. </td>
             <td style="text-align: center">The music consists of shimmering hi-hats, energetic crash cymbals, a wide acoustic rhythm guitar melody, shimmering shakers, punchy snares, and a mellow bass. This arrangement creates an emotional vibe.</td>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/SST/0002[prompt].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/SST/0002[vocal].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/SST/0002[song].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center"><audio preload="none" controls controlslist="nodownload" class="px-1"> <source src='data/SST/0002[prompt].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center"><audio preload="none" controls controlslist="nodownload" class="px-1"> <source src='data/SST/0002[vocal].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center"><audio preload="none" controls controlslist="nodownload" class="px-1"> <source src='data/SST/0002[song].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
           </tr>
 
       </table>
@@ -239,31 +246,31 @@
         </thead>
         <tbody>
           <tr height=100px>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/MST/0001[vocal].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/MST/0001[prompt].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/MST/0001[accomp].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/MST/0001[song].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center"><audio preload="none" controls controlslist="nodownload" class="px-1"> <source src='data/MST/0001[vocal].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center"><audio preload="none" controls controlslist="nodownload" class="px-1"> <source src='data/MST/0001[prompt].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center"><audio preload="none" controls controlslist="nodownload" class="px-1"> <source src='data/MST/0001[accomp].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center"><audio preload="none" controls controlslist="nodownload" class="px-1"> <source src='data/MST/0001[song].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
           </tr>
 
           <tr height=100px>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/MST/0002[vocal].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/MST/0002[prompt].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/MST/0002[accomp].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/MST/0002[song].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center"><audio preload="none" controls controlslist="nodownload" class="px-1"> <source src='data/MST/0002[vocal].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center"><audio preload="none" controls controlslist="nodownload" class="px-1"> <source src='data/MST/0002[prompt].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center"><audio preload="none" controls controlslist="nodownload" class="px-1"> <source src='data/MST/0002[accomp].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center"><audio preload="none" controls controlslist="nodownload" class="px-1"> <source src='data/MST/0002[song].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
           </tr>
 
           <tr height=100px>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/MST/0003[vocal].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/MST/0003[prompt].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/MST/0003[accomp].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/MST/0003[song].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center"><audio preload="none" controls controlslist="nodownload" class="px-1"> <source src='data/MST/0003[vocal].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center"><audio preload="none" controls controlslist="nodownload" class="px-1"> <source src='data/MST/0003[prompt].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center"><audio preload="none" controls controlslist="nodownload" class="px-1"> <source src='data/MST/0003[accomp].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center"><audio preload="none" controls controlslist="nodownload" class="px-1"> <source src='data/MST/0003[song].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
           </tr>
 
           <tr height=100px>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/MST/0004[vocal].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/MST/0004[prompt].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/MST/0004[accomp].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/MST/0004[song].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center"><audio preload="none" controls controlslist="nodownload" class="px-1"> <source src='data/MST/0004[vocal].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center"><audio preload="none" controls controlslist="nodownload" class="px-1"> <source src='data/MST/0004[prompt].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center"><audio preload="none" controls controlslist="nodownload" class="px-1"> <source src='data/MST/0004[accomp].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center"><audio preload="none" controls controlslist="nodownload" class="px-1"> <source src='data/MST/0004[song].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
           </tr>
       </table>
     </div>
@@ -288,30 +295,30 @@
         <tbody>
           <tr height=100px>
             <td style="text-align: center">The pop music includes tinny bells, synth lead melodies, wooden percussion, shimmering hi-hats, and mellow piano chords. This combination produces a happy, joyful, and fun vibe, reminiscent of something you might hear in a club setting.</td>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/V2S/0001[vocal].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/V2S/0001[accomp].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/V2S/0001[song].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center"><audio preload="none" controls controlslist="nodownload" class="px-1"> <source src='data/V2S/0001[vocal].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center"><audio preload="none" controls controlslist="nodownload" class="px-1"> <source src='data/V2S/0001[accomp].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center"><audio preload="none" controls controlslist="nodownload" class="px-1"> <source src='data/V2S/0001[song].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
           </tr>
 
           <tr height=100px>
             <td style="text-align: center">The slow pop music is characterized by a male voice singing the main melody, accompanied by programmed percussion playing a simple beat and a synth playing a repetitive two-note phrase. This creates a romantic mood suitable for a romantic movie.</td>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/V2S/0002[vocal].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/V2S/0002[accomp].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/V2S/0002[song].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center"><audio preload="none" controls controlslist="nodownload" class="px-1"> <source src='data/V2S/0002[vocal].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center"><audio preload="none" controls controlslist="nodownload" class="px-1"> <source src='data/V2S/0002[accomp].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center"><audio preload="none" controls controlslist="nodownload" class="px-1"> <source src='data/V2S/0002[song].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
           </tr>
 
           <tr height=100px>
             <td style="text-align: center">The rock music features a wide electric guitar melody, groovy bass guitar, and punchy kick and snare hits, creating an addictive and passionate sound. This arrangement embodies an emotional aura.</td>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/V2S/0003[vocal].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/V2S/0003[accomp].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/V2S/0003[song].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center"><audio preload="none" controls controlslist="nodownload" class="px-1"> <source src='data/V2S/0003[vocal].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center"><audio preload="none" controls controlslist="nodownload" class="px-1"> <source src='data/V2S/0003[accomp].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center"><audio preload="none" controls controlslist="nodownload" class="px-1"> <source src='data/V2S/0003[song].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
           </tr>
 
           <tr height=100px>
             <td style="text-align: center">The pop music includes tinny bells, synth lead melodies, wooden percussion, shimmering hi-hats, and mellow piano chords. This combination produces a happy, joyful, and fun vibe, reminiscent of something you might hear in a club setting.</td>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/V2S/0004[vocal].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/V2S/0004[accomp].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/V2S/0004[song].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center"><audio preload="none" controls controlslist="nodownload" class="px-1"> <source src='data/V2S/0004[vocal].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center"><audio preload="none" controls controlslist="nodownload" class="px-1"> <source src='data/V2S/0004[accomp].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center"><audio preload="none" controls controlslist="nodownload" class="px-1"> <source src='data/V2S/0004[song].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
           </tr>
 
       </table>
@@ -340,33 +347,33 @@
           <tr height=100px>
             <td style="text-align: center">回想我们走过的那些曲折，只有我们两个别人没法懂得，你说你累了</td>
             <td style="text-align: center">A vocalist sings the melody with an emotional tone. The vocal employs mixed voice techniques for a seamless blend of power and delicacy, along with glide techniques to create smooth and expressive transitions between notes. The performance is deeply emotive, perfectly capturing the song’s emotional essence.</td>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/A2S/0001[accomp].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/A2S/0001[vocal].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/A2S/0001[song].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center"><audio preload="none" controls controlslist="nodownload" class="px-1"> <source src='data/A2S/0001[accomp].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center"><audio preload="none" controls controlslist="nodownload" class="px-1"> <source src='data/A2S/0001[vocal].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center"><audio preload="none" controls controlslist="nodownload" class="px-1"> <source src='data/A2S/0001[song].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
           </tr>
 
           <tr height=100px>
             <td style="text-align: center">那么容易提起，我爱过你</td>
             <td style="text-align: center">A male vocalist delivers an emotional and heartfelt performance, singing the melody with depth and expressiveness. The vocal tone is rich and dynamic, emphasizing the song’s emotional core. The delivery is nuanced, with a focus on conveying intensity, perfectly capturing the essence of the pop song.</td>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/A2S/0002[accomp].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/A2S/0002[vocal].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/A2S/0002[song].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center"><audio preload="none" controls controlslist="nodownload" class="px-1"> <source src='data/A2S/0002[accomp].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center"><audio preload="none" controls controlslist="nodownload" class="px-1"> <source src='data/A2S/0002[vocal].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center"><audio preload="none" controls controlslist="nodownload" class="px-1"> <source src='data/A2S/0002[song].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
           </tr>
 
           <tr height=100px>
             <td style="text-align: center">我想我已慢慢喜欢你，因为我拥有爱情的勇气，我任性投入你给的恶作剧</td>
             <td style="text-align: center">A female vocalist sings melodically as the lead, delivering an emotional and expressive performance. The singing incorporates glide techniques, with smooth transitions between notes that enhance the fluidity and emotional depth of the melody. The tone is heartfelt and evocative, perfectly capturing the easygoing yet emotional atmosphere, making it ideal for the opening theme of a teenage drama TV series.</td>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/A2S/0003[accomp].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/A2S/0003[vocal].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/A2S/0003[song].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center"><audio preload="none" controls controlslist="nodownload" class="px-1"> <source src='data/A2S/0003[accomp].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center"><audio preload="none" controls controlslist="nodownload" class="px-1"> <source src='data/A2S/0003[vocal].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center"><audio preload="none" controls controlslist="nodownload" class="px-1"> <source src='data/A2S/0003[song].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
           </tr>
 
           <tr height=100px>
             <td style="text-align: center">看起来很孤单</td>
             <td style="text-align: center">A female vocalist sings melodically in the lead with a subdued and introspective tone, capturing a sense of loneliness and emotional depth. The delivery is restrained yet expressive, with subtle nuances that emphasize the melancholy and reflective mood, aligning with the mellow atmosphere of the piece.</td>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/A2S/0004[accomp].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/A2S/0004[vocal].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/A2S/0004[song].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center"><audio preload="none" controls controlslist="nodownload" class="px-1"> <source src='data/A2S/0004[accomp].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center"><audio preload="none" controls controlslist="nodownload" class="px-1"> <source src='data/A2S/0004[vocal].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center"><audio preload="none" controls controlslist="nodownload" class="px-1"> <source src='data/A2S/0004[song].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
           </tr>
 
       </table>
@@ -405,9 +412,9 @@
             <td style="text-align: center">The recording showcases a male vocalist singing in a mixed voice technique, delivering a emotional performance that evokes a sense of romantic and emotional depth.</td>
             <td style="text-align: center">The music features acoustic guitar playing a melodic line, supported by a bass guitar in the background. </td>
             <td style="text-align: center">恋慕他的笑脸，在晚风浅唱如弦</td>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/ablation/0000[vocal].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/ablation/0000[accomp].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/ablation/0000[song].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center"><audio preload="none" controls controlslist="nodownload" class="px-1"> <source src='data/ablation/0000[vocal].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center"><audio preload="none" controls controlslist="nodownload" class="px-1"> <source src='data/ablation/0000[accomp].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center"><audio preload="none" controls controlslist="nodownload" class="px-1"> <source src='data/ablation/0000[song].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
           </tr>
 
       </table>
@@ -436,9 +443,9 @@
             <td style="text-align: center">Please create a Chinese song for a female singer, conveying a sorrowful emotion. The key should be B major, with a high pitch.</td>
             <td style="text-align: center">This pop singing features a female vocalist. Her easygoing singing style, invites listeners to relax.</td>
             <td style="text-align: center">This is a pop music piece. There is a keyboard playing the main melody. The acoustic guitar is playing a simple tune while the bass guitar plays in the background. The rhythm is provided by an acoustic drum beat. The atmosphere is easygoing. This piece could be used in the soundtrack of a romantic comedy movie.</td>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/ablation/0003[vocal].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/ablation/0003[accomp].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/ablation/0003[song].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center"><audio preload="none" controls controlslist="nodownload" class="px-1"> <source src='data/ablation/0003[vocal].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center"><audio preload="none" controls controlslist="nodownload" class="px-1"> <source src='data/ablation/0003[accomp].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center"><audio preload="none" controls controlslist="nodownload" class="px-1"> <source src='data/ablation/0003[song].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
           </tr>
         </table>
       </div>
@@ -460,16 +467,16 @@
         <tbody>
           <tr height=100px>
             <td style="text-align: center">风吹过，梦不见寂寞相伴</td>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/ablation/0001[vocal].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/ablation/0001[accomp].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/ablation/0001[song].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center"><audio preload="none" controls controlslist="nodownload" class="px-1"> <source src='data/ablation/0001[vocal].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center"><audio preload="none" controls controlslist="nodownload" class="px-1"> <source src='data/ablation/0001[accomp].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center"><audio preload="none" controls controlslist="nodownload" class="px-1"> <source src='data/ablation/0001[song].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
           </tr>
 
           <tr height=100px>
             <td style="text-align: center">墨痕又染袖，落笔星痕映千秋</td>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/ablation/0004[vocal].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/ablation/0004[accomp].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/ablation/0004[song].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center"><audio preload="none" controls controlslist="nodownload" class="px-1"> <source src='data/ablation/0004[vocal].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center"><audio preload="none" controls controlslist="nodownload" class="px-1"> <source src='data/ablation/0004[accomp].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center"><audio preload="none" controls controlslist="nodownload" class="px-1"> <source src='data/ablation/0004[song].wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
           </tr>
 
       </table>
